@@ -273,6 +273,24 @@ int main()
 	Model Liquido((char*)"Models/Liquido/Liquido.obj");
 	
 
+	//Importación de modelos OBJ Danny Phantom
+	Model Casa((char*)"Models/Casa/fachada.obj");
+	Model Calle((char*)"Models/Casa/calle.obj");
+	Model Puerta((char*)"Models/Casa/puerta.obj");
+	Model Antena((char*)"Models/Antena/antena.obj");
+	Model Base((char*)"Models/Antena/base.obj");
+	Model Rotor((char*)"Models/Antena/rotor.obj");
+	Model Barril((char*)"Models/Barril/barril.obj");
+	Model Computadora((char*)"Models/Computadora/computadora.obj");
+	Model Barra((char*)"Models/Muebles/barra.obj");
+	Model Locker((char*)"Models/Muebles/locker.obj");
+	Model Trastes((char*)"Models/Trastes/trastes.obj");
+	Model Osciloscopio((char*)"Models/Osciloscopio/osciloscopio.obj");
+	Model Plataforma((char*)"Models/Plataforma/plataforma.obj");
+	Model Disco((char*)"Models/Plataforma/discoAnim.obj");
+	Model EstrucPortal((char*)"Models/Portal/portalEstructura.obj");
+	Model Portal((char*)"Models/Portal/portalVerde.obj");
+
 
 	// Build and compile our shader program
 
