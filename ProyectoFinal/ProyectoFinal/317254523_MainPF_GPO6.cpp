@@ -18,6 +18,11 @@
 //Load Models
 #include "SOIL2/SOIL2.h"
 
+//Sound
+#include <irrKlang.h>
+
+using namespace irrklang;
+
 
 // Other includes
 #include "Shader.h"
@@ -398,6 +403,7 @@ int main()
 	KeyFrame2[3].botonDKF = 5.185;
 	KeyFrame2[3].cajonSecretoKF = 4.88;
 
+	
 	KeyFrame2[4].botonUKF = 5.15;
 	KeyFrame2[4].botonDKF = 5.15;
 	KeyFrame2[4].cajonSecretoKF = 4.88;
@@ -572,6 +578,15 @@ int main()
 		glm::vec3(-1.3f,  1.0f, -1.5f)
 	};
 
+	ISoundEngine* engine = createIrrKlangDevice();
+	if (!engine) {
+		std::cout << "Failed to create sound engine" << std::endl;
+	}
+
+	engine->play2D("media/getout.ogg",true);
+	
+
+
 
 	// First, set the container's VAO (and VBO)
 	GLuint VBO, VAO, EBO;
@@ -639,7 +654,7 @@ int main()
 	// Game loop
 	while (!glfwWindowShouldClose(window))
 	{
-
+		
 		// Calculate deltatime of current frame
 		GLfloat currentFrame = glfwGetTime();
 		deltaTime = currentFrame - lastFrame;
@@ -1461,7 +1476,7 @@ int main()
 		// Swap the screen buffers
 		glfwSwapBuffers(window);
 	}
-
+	engine->drop();
 
 
 
