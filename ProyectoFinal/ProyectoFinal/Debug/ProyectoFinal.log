@@ -1,86 +1,81 @@
 ﻿  317254523_MainPF_GPO6.cpp
 D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\modelAnim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
 D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\modelAnim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(403,27): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(433,31): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(438,31): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(439,31): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(442,31): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(443,31): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(444,36): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(446,30): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(447,30): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(448,36): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(481,33): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(482,33): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(487,33): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(488,33): warning C4305: '=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(689,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(737,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(358,27): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(388,31): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(393,31): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(394,31): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(397,31): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(398,31): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(399,36): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(401,30): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(402,30): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(403,36): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(436,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(437,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(442,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(443,33): warning C4305: '=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(644,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(690,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(738,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(691,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(739,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(692,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(771,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(725,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(772,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(726,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(773,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(727,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(784,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(739,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(785,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(740,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(786,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(741,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1399,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1517,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1518,21): warning C4305: '+=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1529,21): warning C4305: '+=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1530,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1546,20): warning C4305: '+=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1556,20): warning C4305: '-=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1570,21): warning C4305: '+=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1580,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1678,53): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1679,53): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1834,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1835,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1839,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1840,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1842,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1843,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
-soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1374,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1492,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1493,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1504,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1505,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1521,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1531,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1545,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1555,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1653,53): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1654,53): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1809,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1810,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1814,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1815,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1817,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\ProyectoFinal\317254523_MainPF_GPO6.cpp(1818,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
   ProyectoFinal.vcxproj -> D:\Semestre7\ComputoGrafico\ProyectoFinal\Proyecto-ColonRoldan-ComputacionGrafica\ProyectoFinal\Debug\ProyectoFinal.exe

@@ -94,7 +94,7 @@ GLfloat lastFrame = 0.0f;  	// Time of last frame
 
 // Keyframes
 
-float posX = PosIni.x, posY = PosIni.y, posZ = PosIni.z, rotRodIzq = 0;
+float posX = PosIni.x, posY = PosIni.y, posZ = PosIni.z;
 
 //Primera animación compleja
 float cafeKF = 4.0f, tapaKF = 3.85f, tapaVKF = 4.0f, vasoVKF = 5.0f, vasoKF = 3.85f;
@@ -328,6 +328,8 @@ int main()
 	Model EstrucPortal((char*)"Models/Portal/portalEstructura.obj");
 	Model Portal((char*)"Models/Portal/portalVerde.obj");
 
+	//Personaje
+	Model Danny((char*)"Models/Personaje/DannyPhantom.obj");
 
 	// Build and compile our shader program
 
@@ -803,6 +805,13 @@ int main()
 		//Carga de modelo 
 		view = camera.GetViewMatrix();
 		glm::mat4 model(1);
+
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		model = glm::translate(model, glm::vec3(0, 3, 0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Danny.Draw(lightingShader);
 
 
 		// Fachada Casa Pingui//
@@ -1822,20 +1831,6 @@ void DoMovement()
 
 	}
 
-	if (keys[GLFW_KEY_2])
-	{
-		if (rotRodIzq<80.0f)
-			rotRodIzq += 1.0f;
-			
-	}
-
-	if (keys[GLFW_KEY_3])
-	{
-		if (rotRodIzq>-45)
-			rotRodIzq -= 1.0f;
-		
-	}
-
 	if (keys[GLFW_KEY_U])
 	{
 		activar = true;
@@ -1892,52 +1887,6 @@ void DoMovement()
 		}
 
 	}
-
-	
-	/*
-	if (keys[GLFW_KEY_P]) {
-
-		if (abierto) {
-			rotPuertas += 0.5f;
-
-			if (rotPuertas >= 90.0f) {
-				abierto = false;
-				bucle = true;
-
-			}
-		}
-		else if (bucle) {
-			rotPuertas -= 0.5f;
-
-			if (rotPuertas <= 0.0f) {
-				bucle = false;
-				abierto = true;
-			}
-		}
-	}
-	*/
-
-	//Mov Personaje
-	/*if (keys[GLFW_KEY_H])
-	{
-		posZ += 1;
-	}
-
-	if (keys[GLFW_KEY_Y])
-	{
-		posZ -= 1;
-	}
-
-	if (keys[GLFW_KEY_G])
-	{
-		posX -= 1;
-	}
-
-	if (keys[GLFW_KEY_J])
-	{
-		posX += 1;
-	}
-	*/
 
 	// Camera controls
 	if (keys[GLFW_KEY_W] || keys[GLFW_KEY_UP])
