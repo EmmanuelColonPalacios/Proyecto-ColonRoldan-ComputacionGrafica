@@ -61,14 +61,15 @@ float plataScaleZ = 1.0;
 float rotRot = -10.0f;
 float antenaRot = -10.0f;
 
-
-
 // Window dimensions
 const GLuint WIDTH = 1280, HEIGHT = 720;
 int SCREEN_WIDTH, SCREEN_HEIGHT;
 
+// Danny Movement
+float DannyX = 0, DannyY = 0, DannyZ = 0;
+
 // Camera
-Camera  camera(glm::vec3(-95.0f, 11.0f, -25.0f));
+Camera  camera(glm::vec3(-95.0f, 7.0f, -65.0f));
 GLfloat lastX = WIDTH / 2.0;
 GLfloat lastY = HEIGHT / 2.0;
 bool keys[1024];
@@ -282,7 +283,7 @@ int main()
 	//glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	Shader lightingShader("Shaders/lighting.vs", "Shaders/lighting.frag");
-	Shader lightingShader2("Shaders/lighting.vs", "Shaders/lighting.frag");
+	Shader lightingShader2("Shaders/anim2.vs", "Shaders/anim2.frag");
 	Shader lampShader("Shaders/lamp.vs", "Shaders/lamp.frag");
 	Shader SkyBoxshader("Shaders/SkyBox.vs", "Shaders/SkyBox.frag");
 	Shader animShader("Shaders/anim.vs", "Shaders/anim.frag");
@@ -339,6 +340,7 @@ int main()
 
 	//Personaje
 	Model Danny((char*)"Models/Personaje/DannyPhantom.obj");
+	//Model Fantasma((char*)"Models/DannyFantasma/DannyFantasma.obj");
 
 	// Build and compile our shader program
 
@@ -820,18 +822,33 @@ int main()
 		glBindVertexArray(VAO);
 		glm::mat4 tmp = glm::mat4(1.0f); //Temp
 
-
+		lightingShader.Use();
 
 		//Carga de modelo 
 		view = camera.GetViewMatrix();
 		glm::mat4 model(1);
 
+
 		view = camera.GetViewMatrix();
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(posX, posY, posZ));
-		model = glm::translate(model, glm::vec3(0, 3, 0));
+		//model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		model = glm::translate(model, glm::vec3(-95.0f+DannyX, 5.0f+DannyY, -60.0f+DannyZ));
+		//model = glm::rotate(model, glm::radians(180.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		//model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		Danny.Draw(lightingShader);
+
+		
+		/*
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		model = glm::translate(model, glm::vec3(-95.0f + DannyX, 5.0f + DannyY, -63.0f + DannyZ));
+		//model = glm::rotate(model, glm::radians(180.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		//model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Fantasma.Draw(lightingShader);
+		*/
 
 
 		// Fachada Casa Pingui//
@@ -1166,6 +1183,8 @@ int main()
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 4.0f);
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
 		CabinaTrans.Draw(lightingShader);
+		
+		
 
 		glDisable(GL_BLEND); //termina transparencia
 
@@ -1847,7 +1866,8 @@ void MouseCallback(GLFWwindow *window, double xPos, double yPos)
 	lastX = xPos;
 	lastY = yPos;
 
-	camera.ProcessMouseMovement(xOffset, yOffset);
+	// camera.ProcessMouseMovement(xOffset, yOffset);
+	camera.ProcessMouseMovement(xOffset, 0);
 }
 
 // Moves/alters the camera positions based on user input
@@ -1919,29 +1939,31 @@ void DoMovement()
 	}
 
 	// Camera controls
-	if (keys[GLFW_KEY_W] || keys[GLFW_KEY_UP])
+	if (keys[GLFW_KEY_W])
 	{
 		camera.ProcessKeyboard(FORWARD, deltaTime);
+		DannyZ += 0.1f;
 
 	}
 
-	if (keys[GLFW_KEY_S] || keys[GLFW_KEY_DOWN])
+	if (keys[GLFW_KEY_S])
 	{
 		camera.ProcessKeyboard(BACKWARD, deltaTime);
-
+		DannyZ -= 0.1f;
 
 	}
 
 	if (keys[GLFW_KEY_A] || keys[GLFW_KEY_LEFT])
 	{
 		camera.ProcessKeyboard(LEFT, deltaTime);
-
+		DannyX += 0.1f;
 
 	}
 
 	if (keys[GLFW_KEY_D] || keys[GLFW_KEY_RIGHT])
 	{
 		camera.ProcessKeyboard(RIGHT, deltaTime);
+		DannyX -= 0.1f;
 	}
 
 }
