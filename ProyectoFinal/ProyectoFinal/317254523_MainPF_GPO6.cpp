@@ -287,6 +287,10 @@ int main()
 	Shader SkyBoxshader("Shaders/SkyBox.vs", "Shaders/SkyBox.frag");
 	Shader animShader("Shaders/anim.vs", "Shaders/anim.frag");
 
+	// Pinguino Jetpack modelo //
+	Model Pinwi((char*)"Models/Pinwin/Pinwin.obj");
+	
+	
 	// Fachada //
 	Model Edificio((char*)"Models/EdificioGigante/EdificioGigante.obj");
 	Model PuertaIzq((char*)"Models/PuertaIzquierda/PuertaIzquierda.obj");
@@ -872,6 +876,16 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0.0);
 		CajonAbajo.Draw(lightingShader);
+
+		// Modelo pinwi jetpack //
+		view = camera.GetViewMatrix();
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		model = glm::translate(model, glm::vec3(-2, 2.8, 8.0));
+		model = glm::rotate(model, glm::radians(40.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0.0);
+		Pinwi.Draw(lightingShader);
 
 
 		//Fachada casa de Danny PhANTOM
