@@ -92,8 +92,6 @@ bool active;
 bool active2;
 bool active3;
 
-
-
 // Deltatime
 GLfloat deltaTime = 0.0f;	// Time between current frame and last frame
 GLfloat lastFrame = 0.0f;  	// Time of last frame
@@ -221,8 +219,7 @@ glm::vec3 LightP3;
 //interior Danny
 glm::vec3 LightP4;
 glm::vec3 LightP7;
-//
-// 
+
 //Emergencia Danny
 glm::vec3 LightP5;
 glm::vec3 LightP6;
@@ -291,7 +288,6 @@ int main()
 	// Pinguino Jetpack modelo //
 	Model Pinwi((char*)"Models/Pinwin/Pinwin.obj");
 	
-	
 	// Fachada //
 	Model Edificio((char*)"Models/EdificioGigante/EdificioGigante.obj");
 	Model PuertaIzq((char*)"Models/PuertaIzquierda/PuertaIzquierda.obj");
@@ -318,29 +314,37 @@ int main()
 	Model Vaso((char*)"Models/Vaso/Vaso.obj");
 	Model Tapa((char*)"Models/Tapa/Tapa.obj");
 	Model Liquido((char*)"Models/Liquido/Liquido.obj");
-	
 
 	//Importación de modelos OBJ Danny Phantom
+	//Fachada
 	Model Casa((char*)"Models/Casa/fachada.obj");
 	Model Calle((char*)"Models/Casa/calle.obj");
+	//Objetos
 	Model Puerta((char*)"Models/Casa/puerta.obj");
+	Model Barril((char*)"Models/Barril/barril.obj");
+	Model Computadora((char*)"Models/Computadora/computadora.obj");
+	Model Locker((char*)"Models/Muebles/locker.obj");
+	//Parte de las mesas
+	Model Osciloscopio((char*)"Models/Osciloscopio/osciloscopio.obj");
+	Model Trastes((char*)"Models/Trastes/trastes.obj");
+	Model Barra((char*)"Models/Muebles/barra.obj");
+	
+	//Plattaforma
+	Model Plataforma((char*)"Models/Plataforma/plataforma.obj");
+	Model Disco((char*)"Models/Plataforma/discoAnim.obj");
+
+	//Modelo portal
+	Model Portal((char*)"Models/Portal/portalVerde.obj");
+	Model EstrucPortal((char*)"Models/Portal/portalEstructura.obj");
+
+	//Modelo de antena
 	Model Antena((char*)"Models/Antena/antena.obj");
 	Model Base((char*)"Models/Antena/base.obj");
 	Model Rotor((char*)"Models/Antena/rotor.obj");
-	Model Barril((char*)"Models/Barril/barril.obj");
-	Model Computadora((char*)"Models/Computadora/computadora.obj");
-	Model Barra((char*)"Models/Muebles/barra.obj");
-	Model Locker((char*)"Models/Muebles/locker.obj");
-	Model Trastes((char*)"Models/Trastes/trastes.obj");
-	Model Osciloscopio((char*)"Models/Osciloscopio/osciloscopio.obj");
-	Model Plataforma((char*)"Models/Plataforma/plataforma.obj");
-	Model Disco((char*)"Models/Plataforma/discoAnim.obj");
-	Model EstrucPortal((char*)"Models/Portal/portalEstructura.obj");
-	Model Portal((char*)"Models/Portal/portalVerde.obj");
 
-	//Personaje
+	//Personaje Danny Phantom
 	Model Danny((char*)"Models/Personaje/DannyPhantom.obj");
-	//Model Fantasma((char*)"Models/DannyFantasma/DannyFantasma.obj");
+	Model Fantasma((char*)"Models/DannyFantasma/DannyFantasma.obj");
 
 	// Build and compile our shader program
 
@@ -706,7 +710,6 @@ int main()
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "pointLights[0].linear"), 0.09f);
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "pointLights[0].quadratic"), 0.032f);
 
-
 		// Point light 2
 		glm::vec3 lightColor2;
 		lightColor2.x = abs(0.5 * sin(glfwGetTime() * LightP2.x * 2));
@@ -824,7 +827,7 @@ int main()
 
 		lightingShader.Use();
 
-		//Carga de modelo 
+		//Carga de modelo s
 		view = camera.GetViewMatrix();
 		glm::mat4 model(1);
 
@@ -837,9 +840,7 @@ int main()
 		//model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		Danny.Draw(lightingShader);
-
 		
-		/*
 		view = camera.GetViewMatrix();
 		model = glm::mat4(1);
 		//model = glm::translate(model, glm::vec3(posX, posY, posZ));
@@ -848,9 +849,7 @@ int main()
 		//model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		Fantasma.Draw(lightingShader);
-		*/
-
-
+		
 		// Fachada Casa Pingui//
 		view = camera.GetViewMatrix();
 		model = glm::mat4(1);
@@ -905,7 +904,7 @@ int main()
 		Pinwi.Draw(lightingShader);
 
 
-		//Fachada casa de Danny PhANTOM
+		//Fachada casa de Danny Phantom
 
 		view = camera.GetViewMatrix();
 		model = glm::mat4(1);
@@ -940,9 +939,6 @@ int main()
 
 
 		//Modelos DannyPhantom
-		// 
-		// 
-		// 
 		// 		//Antena
 		view = camera.GetViewMatrix();
 		model = glm::mat4(1);
@@ -1677,6 +1673,7 @@ void animacion()
 
 	}
 
+	//Animación plataforma por Keyframes
 	if (play3)
 	{
 		if (i_curr_steps3 >= i_max_steps3) //end of animation between frames?
@@ -1792,6 +1789,7 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode
 		}
 	}
 
+	//Animación luces 
 	if (keys[GLFW_KEY_SPACE])
 	{
 		active = !active;
@@ -1847,8 +1845,6 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode
 	}
 
 }
-
-
 
 void MouseCallback(GLFWwindow *window, double xPos, double yPos)
 {
