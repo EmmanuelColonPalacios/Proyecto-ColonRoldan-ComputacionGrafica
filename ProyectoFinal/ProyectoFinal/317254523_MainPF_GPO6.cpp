@@ -344,7 +344,7 @@ int main()
 
 	//Personaje Danny Phantom
 	Model Danny((char*)"Models/Personaje/DannyPhantom.obj");
-	Model Fantasma((char*)"Models/DannyFantasma/DannyFantasma.obj");
+	//Model Fantasma((char*)"Models/DannyFantasma/DannyFantasma.obj");
 
 	// Build and compile our shader program
 
@@ -841,14 +841,14 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		Danny.Draw(lightingShader);
 		
-		view = camera.GetViewMatrix();
-		model = glm::mat4(1);
-		//model = glm::translate(model, glm::vec3(posX, posY, posZ));
-		model = glm::translate(model, glm::vec3(-95.0f + DannyX, 5.0f + DannyY, -63.0f + DannyZ));
-		//model = glm::rotate(model, glm::radians(180.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-		//model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		Fantasma.Draw(lightingShader);
+		//view = camera.GetViewMatrix();
+		//model = glm::mat4(1);
+		////model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		//model = glm::translate(model, glm::vec3(-95.0f + DannyX, 5.0f + DannyY, -63.0f + DannyZ));
+		////model = glm::rotate(model, glm::radians(180.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+		////model = glm::translate(model, glm::vec3(DannyX, DannyY, DannyZ));
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Fantasma.Draw(lightingShader);
 		
 		// Fachada Casa Pingui//
 		view = camera.GetViewMatrix();

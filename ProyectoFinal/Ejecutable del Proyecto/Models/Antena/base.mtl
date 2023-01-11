@@ -1,0 +1,126 @@
+newmtl base1:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisBaseAbajo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisBaseAbajo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisBaseAbajo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisBaseAbajo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisBaseAbajo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong15SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd botonRojo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong17SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong18SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl base1:phong19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd grisGeneral.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
